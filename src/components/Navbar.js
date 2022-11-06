@@ -8,7 +8,7 @@ const Navbar = () => {
     return ( 
         <div className="Navbar" marginBottom="0.5em">
             <nav>
-                <a href="/">
+                <a href="/developer-portfolio">
                     <img src={process.env.PUBLIC_URL + "/assets/signature2.png"} alt="logo" id="logo" width="80" height="55"/>
                 </a>
                 <ul>

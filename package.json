@@ -1,5 +1,6 @@
 {
   "name": "developer-portfolio",
+  "homepage": "http://teo-cozma.github.io/developer-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,7 @@
     "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "preinstall": "npx npm-force-resolutions"
@@ -47,6 +48,5 @@
   "resolutions": {
     "minimatch": "^5.1.0",
     "nth-check": "^2.1.1"
-  },
-  "homepage": "http://teo-cozma.github.io/developer-portfolio"
+  }
 }

@@ -15,7 +15,7 @@ function App() {
           <Navbar/>
         </header>
         <Routes>
-          <Route exact path="/" element={ <Home /> }/>
+          <Route exact path="/developer-portfolio" element={ <Home /> }/>
         </Routes>
         <footer>
             <p>&#169; Teo Cozma - 2022 </p> 

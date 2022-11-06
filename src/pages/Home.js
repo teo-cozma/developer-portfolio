@@ -1,7 +1,6 @@
 import React from "react";
 import Cards from "../components/Cards";
-// import About from "../components/About";
-// import Contact from "../components/Contact";
+import arrow from "../images/arrow.png"
 
 import '../styles/App.css';
 import '../styles/Cards.css';
@@ -34,7 +33,7 @@ const Home = () => {
                         I am looking to become an experienced professional in a challenging environment where I will sharpen and branch out my skillset. 
                         </p>
                         <br /><br />
-                        <a href="./assets/Teodora_Cozma_CV_EN.pdf" download="Teodora_Cozma_CV">Here is my CV.</a>
+                        {/* <a href="../assets/Teodora_Cozma_CV_EN.pdf" download="Teodora_Cozma_CV">Here is my CV.</a> */}
                              
                     
                     </div>
@@ -66,7 +65,7 @@ const Home = () => {
 
                 <div id="back_to_top">
                     {/* <a href="/"> */}
-                        <img src="./assets/arrow.png" alt="back_to_top_arrow" width="30"
+                        <img src={arrow} alt="back_to_top_arrow" width="30"
                         onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}
                         />
                     {/* </a> */}
