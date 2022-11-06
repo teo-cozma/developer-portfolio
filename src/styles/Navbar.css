@@ -1,0 +1,48 @@
+/* Navigation block */
+
+/* Main links */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 2em 3em 2em;
+  /* border-bottom: solid #53DEE4 2px; */
+  background: linear-gradient(#0d0f16 80%, #53DEE4D9);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  color: #53DEE4;
+  margin: 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+  nav ul {
+    display: flex;
+    /* flex-direction: column; */
+    text-align: right;
+  }
+}
+
+nav ul a {
+  color: #53DEE4;
+  text-decoration: none;
+  margin-left: 1.5em; 
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  nav ul li {
+    padding-top: 0.8em;
+  }
+  nav i {
+    font-size: 1em;
+  }
+  nav {
+    padding: 2em 1.5em 3em 1.5em;
+  }
+}
+
+a:hover{
+  font-weight: bold;
+}

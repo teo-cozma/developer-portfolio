@@ -1,0 +1,116 @@
+/* For everything */
+
+* {
+  color: #53DEE4;
+}
+
+.App, html {
+  background-color: #0d0f16;
+  color: white;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, a {
+  font-family: Consolas;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 40px;
+  }
+}
+
+
+p, h4, h3 {
+  color: white;
+}
+
+p {
+  /* font-family: 'Oxygen'; */
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+h3:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+a {
+  color: #53DEE4;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+i {
+  font-size: 1.3em;
+}
+
+
+/* Presentation */
+
+@keyframes presentation {
+  0% {opacity: 0%; padding-top:5em;}
+  100% {opacity: 100%; padding-top:0em;}
+}
+
+.description, .titles, .call-to-action {
+  display: grid;
+  animation-name: presentation;
+  animation-duration: 3s;
+}
+
+.call-to-action {
+  /* background-color: #53DEE426; */
+  /* padding: 2em; */
+  text-transform: uppercase;
+  /* text-align: center; */
+}
+
+
+/* Portfolio content */
+
+.portfolio-content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+section {
+  margin: 8em auto 15em;
+}
+@media screen and (max-width: 786px) {
+  section {
+    margin: 5em auto 10em;
+  }
+}
+
+#back_to_top {
+  cursor: pointer;
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+}
+@media screen and (max-width: 992px){
+  #back_to_top {
+    right: 0.5em;
+    bottom: 0.5em;
+  }
+}
+
+/* Footer content */
+
+footer p {
+  color: #53DEE4;
+  text-align: center;
+  margin: 2em 0em 3em 0em;
+}
