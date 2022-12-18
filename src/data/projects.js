@@ -38,11 +38,11 @@ export const projects = [
         "image": Getflix, 
         "subtitle": "Group mission / Front and Backend",
         "title": "Streaming service",
-        "description" : "A consolidation group project that puts our latest backend (PHP + SQL) skills to the test.",
+        "description" : "A consolidation group project that puts our latest backend (PHP + SQL) skills to the test. (No longer deployed)",
         "links": [
             { 
                 "site": "http://getflix.atwebpages.com/Frontend/welcome.php", 
-                "cta" : "Enter the Chill-zone...",
+                // "cta" : "Enter the Chill-zone...",
                 "repo": "https://github.com/Dan-DH/getflix"
             }
         ], 

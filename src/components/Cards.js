@@ -35,7 +35,7 @@ const Cards = () => {
                                 {project.links.map((link) => (
                                     <ul>
                                         <li>
-                                            <a href={link.site}><h3>{link.cta}</h3></a>
+                                            <a target="_blank" rel="noreferrer"  href={link.site}><h3>{link.cta}</h3></a>
                                         </li>
                                         
                                         <li>
