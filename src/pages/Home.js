@@ -50,7 +50,7 @@ const Home = () => {
 
                 <section id="Portfolio">
                     <h2>Portfolio</h2>
-                    <Cards/>
+                    <Cards/> 
                 </section>
 
                 {/* <section id="About">
