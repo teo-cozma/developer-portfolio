@@ -28,7 +28,9 @@ const Home = () => {
 
                     <div className="description">
                         
-                        <p>I am a web developer who enjoys combining knowledge of frontend and backend tools, along with a creativity that brings focus to details while maintaining a big-picture view of the projects I build.  
+                        <p>I am a web developer, consistently learning about tools and technologies for both frontend and backend development. 
+                        When working on projects, I harness my creative, technical, and organizational skills, which allow me to structure the development of a project and also adapt my focus, when necessary, from a big-picture vision to zooming in on the small but crucial details.
+                        <br />
                         <br />
                         I am looking to become an experienced professional in a challenging environment where I will sharpen and branch out my skillset. 
                         </p>
