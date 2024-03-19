@@ -6,7 +6,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2em 2em 3em 2em;
-  /* border-bottom: solid #53DEE4 2px; */
   background: linear-gradient(#0d0f16 80%, #53DEE4D9);
 }
 
@@ -20,7 +19,6 @@ nav ul {
 @media screen and (max-width: 480px) {
   nav ul {
     display: flex;
-    /* flex-direction: column; */
     text-align: right;
   }
 }

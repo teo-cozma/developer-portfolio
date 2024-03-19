@@ -59,7 +59,7 @@ i {
 /* Presentation */
 
 @keyframes presentation {
-  0% {opacity: 0%; padding-top:5em;}
+  0% {opacity: 0%; padding-top:3em;}
   100% {opacity: 100%; padding-top:0em;}
 }
 
@@ -86,11 +86,11 @@ i {
 
 
 section {
-  margin: 8em auto 17em;
+  margin: 5em auto 20em;
 }
 @media screen and (max-width: 786px) {
   section {
-    margin: 5em auto 10em;
+    margin: 2em auto 10em;
   }
 }
 

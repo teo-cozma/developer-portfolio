@@ -6,51 +6,33 @@ import '../styles/Cards.css';
 
 
 const Cards = () => {
-    
-    return ( 
-        <div className='portfolio'>
-            {projects.map((project) => (
 
-                <div className="project"
-                    style={{
-                        backgroundColor: project.color,
-                    }}
-                >
+    return (
+        <div className='portfolio'>
+            {projects.map((project, id, idx) => (
+
+                <div key={id} className="project" style={{ backgroundColor: project.color }}>
                     <div className='imgbox'>
-                        <img src={project.image} alt="projects"
-                        width="100%" height="100%"
-                        className='image'
-                        />
-                        
-                        <div className='card'
-                            style={{
-                                backgroundColor: project.color2,
-                            }}
-                        >
+                        <img src={project.image} alt="projects" style={{objectFit: project.style}}/>
+
+                        <div className='card' style={{ backgroundColor: project.color2 }}>
                             <h4>{project.subtitle}</h4>
                             <h2 className="title">{project.title}</h2>
                             <p>{project.description}</p>
 
                             <div className='links'>
-                                {project.links.map((link) => (
-                                    <ul>
-                                        <li>
-                                            <a target="_blank" rel="noreferrer"  href={link.site}><h3>{link.cta}</h3></a>
-                                        </li>
-                                        
-                                        <li>
-                                            <a target="_blank" href={link.repo} rel="noreferrer" ><i class="fab fa-github"/></a>
-                                        </li>
-                                    </ul>
-                                ))}
+                                <ul>
+                                    <li><a target="_blank" rel="noreferrer" href={project.site}><h3>{project.cta}</h3></a></li>
+                                    <li><a target="_blank" href={project.repo} rel="noreferrer" ><i className="fab fa-github" /></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             ))}
         </div>
     );
 }
- 
+
 export default Cards;

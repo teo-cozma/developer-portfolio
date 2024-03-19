@@ -41,13 +41,15 @@
 
 /* Behavior of images */
 .imgbox img {
-    object-fit: contain;
+    /* object-fit: cover; */
     box-sizing: border-box;
     transition: 0.5s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 1em;
+    overflow: hidden;
+    position: absolute;
+    margin: 0em auto;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .imgbox:hover img {
@@ -70,16 +72,6 @@
 .title {
     color: white;
     font-size: 35px;
-}
-
-.image {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin: 0em auto;
-    z-index: 0;
 }
 
 
