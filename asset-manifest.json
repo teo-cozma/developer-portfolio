@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.5f65ce27.css",
-    "main.js": "/developer-portfolio/static/js/main.1e8b8adf.js",
-    "static/js/787.d0fc6f61.chunk.js": "/developer-portfolio/static/js/787.d0fc6f61.chunk.js",
+    "main.css": "/developer-portfolio/static/css/main.802f03c2.css",
+    "main.js": "/developer-portfolio/static/js/main.42999b63.js",
+    "static/js/787.071635bc.chunk.js": "/developer-portfolio/static/js/787.071635bc.chunk.js",
     "static/media/Ombre_rouge.png": "/developer-portfolio/static/media/Ombre_rouge.dfc7eaee7b8f152b087c.png",
     "static/media/cookie_2.png": "/developer-portfolio/static/media/cookie_2.701c5969c759f5838168.png",
     "static/media/actyv.logo.2.png": "/developer-portfolio/static/media/actyv.logo.2.89d41615ade60a87e4bf.png",
@@ -11,12 +11,12 @@
     "static/media/Getflix@2x.webp": "/developer-portfolio/static/media/Getflix@2x.17c1872b7dadca1471f8.webp",
     "static/media/enchanted_arena_2.png": "/developer-portfolio/static/media/enchanted_arena_2.8b576c3c2f492f0d72b2.png",
     "index.html": "/developer-portfolio/index.html",
-    "main.5f65ce27.css.map": "/developer-portfolio/static/css/main.5f65ce27.css.map",
-    "main.1e8b8adf.js.map": "/developer-portfolio/static/js/main.1e8b8adf.js.map",
-    "787.d0fc6f61.chunk.js.map": "/developer-portfolio/static/js/787.d0fc6f61.chunk.js.map"
+    "main.802f03c2.css.map": "/developer-portfolio/static/css/main.802f03c2.css.map",
+    "main.42999b63.js.map": "/developer-portfolio/static/js/main.42999b63.js.map",
+    "787.071635bc.chunk.js.map": "/developer-portfolio/static/js/787.071635bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f65ce27.css",
-    "static/js/main.1e8b8adf.js"
+    "static/css/main.802f03c2.css",
+    "static/js/main.42999b63.js"
   ]
 }
