@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/developer-portfolio" element={ <Home /> }/>
         </Routes>
         <footer>
-            <p>&#169; Teo Cozma - 2024 </p> 
+            <p>&#169; Teo Cozma - 2025 </p> 
         </footer>
       </Router>
     </div>
